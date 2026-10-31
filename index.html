@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="theme-color" content="#101827" />
+  <meta name="description" content="AI StudyMate — Your Personal AI Teacher. Anytime. Anywhere." />
+  <title>AI StudyMate — Your Personal AI Teacher</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="topbar">
+    <a class="brand" href="#" aria-label="AI StudyMate home"><span class="brand-mark">✦</span><span>AI <b>StudyMate</b></span></a>
+    <nav><a href="#features">Features</a><a href="#how">How it works</a></nav>
+    <button class="language" id="languageBtn" aria-label="Change language">🌐 English</button>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <div class="eyebrow"><span class="pulse"></span> YOUR LEARNING COMPANION</div>
+        <h1>Learn smarter.<br /><span>Go further.</span></h1>
+        <p class="hero-text">A personal AI study companion that helps you understand difficult topics, solve problems, and prepare with confidence.</p>
+        <a class="primary-btn" href="#tutor">Start learning <span>→</span></a>
+        <div class="trust-line">For school • college • university</div>
+      </div>
+      <div class="hero-card">
+        <div class="card-top"><span class="sparkle">✦</span><div><b>Your study space</b><small>Ready when you are</small></div><span class="online"></span></div>
+        <div class="sample-question">Can you explain photosynthesis?</div>
+        <div class="sample-answer"><span class="ai-dot">✦</span><div><b>Let's make it simple.</b><p>Plants use sunlight to turn water and carbon dioxide into glucose (food) and oxygen.</p><div class="answer-tags"><span>Simple explanation</span><span>Biology</span></div></div></div>
+        <div class="mini-row"><span>🧠 Understand</span><span>✍️ Practise</span><span>🚀 Improve</span></div>
+      </div>
+    </section>
+
+    <section class="quick-tools" id="features">
+      <div class="section-heading"><div><span class="eyebrow">YOUR TOOLKIT</span><h2>Everything you need to study</h2></div><p>One place for questions, practice, and better study habits.</p></div>
+      <div class="tool-grid">
+        <button class="tool-card" data-tool="AI Tutor"><span class="tool-icon purple">✦</span><b>AI Tutor</b><small>Understand any topic step by step.</small><span class="tool-arrow">↗</span></button>
+        <button class="tool-card" data-tool="Homework Helper"><span class="tool-icon blue">✎</span><b>Homework Helper</b><small>Work through questions with guidance.</small><span class="tool-arrow">↗</span></button>
+        <button class="tool-card" data-tool="Notes Maker"><span class="tool-icon orange">▤</span><b>Notes Maker</b><small>Turn long lessons into clear notes.</small><span class="tool-arrow">↗</span></button>
+        <button class="tool-card" data-tool="Quiz Practice"><span class="tool-icon green">✓</span><b>Quiz Practice</b><small>Test what you know and revise.</small><span class="tool-arrow">↗</span></button>
+        <button class="tool-card" data-tool="PDF Study"><span class="tool-icon pink">▧</span><b>PDF Study</b><small>Ask questions about your documents.</small><span class="tool-arrow">↗</span></button>
+        <button class="tool-card" data-tool="Study Planner"><span class="tool-icon yellow">◷</span><b>Study Planner</b><small>Build a routine that works for you.</small><span class="tool-arrow">↗</span></button>
+      </div>
+    </section>
+
+    <section class="tutor-section" id="tutor">
+      <div class="section-heading"><div><span class="eyebrow">LET'S GET STARTED</span><h2>What are you learning today?</h2></div><p>Choose a tool or ask a study question.</p></div>
+      <div class="tutor-box">
+        <div class="tutor-title"><span class="ai-dot">✦</span><div><b>StudyMate Assistant</b><small>Interactive preview · AI connection not configured yet</small></div></div>
+        <div class="prompt-chips"><button>Explain algebra simply</button><button>Make notes on cell biology</button><button>Give me a history quiz</button></div>
+        <form id="questionForm"><label class="sr-only" for="question">Your study question</label><textarea id="question" rows="2" placeholder="Ask a question about your studies..."></textarea><button class="send-btn" type="submit" aria-label="Send question">↑</button></form>
+        <div id="response" class="response" aria-live="polite"></div>
+      </div>
+    </section>
+
+    <section class="how-section" id="how"><span class="eyebrow">SIMPLE BY DESIGN</span><h2>Make every study session count.</h2><div class="steps"><div><span>01</span><b>Ask anything</b><p>Start with a topic, question, or problem.</p></div><div><span>02</span><b>Learn your way</b><p>Get clear explanations and guided practice.</p></div><div><span>03</span><b>Build confidence</b><p>Review, practise, and keep improving.</p></div></div></section>
+  </main>
+  <footer><a class="brand" href="#"><span class="brand-mark">✦</span><span>AI <b>StudyMate</b></span></a><span>Your Personal AI Teacher. Anytime. Anywhere.</span><small>© <span id="year"></span> AI StudyMate · Early preview</small></footer>
+  <script src="app.js"></script>
+</body>
+</html>
