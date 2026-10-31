@@ -11,4 +11,4 @@ services:
       - key: OPENAI_MODEL
         value: gpt-5.5
       - key: ALLOWED_ORIGINS
-        value: "*"
+        value: https://your-frontend-domain.example
